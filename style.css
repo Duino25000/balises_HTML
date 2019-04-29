@@ -1,0 +1,237 @@
+/*------ AJOUT FONTS ------*/
+
+@font-face {
+	font-family: 'Saira Extra';
+	src: url('police/SairaExtraCondensed-Regular.otf');
+	
+}
+
+/*------ GENERALES ------*/
+
+* {
+   margin:0px;
+}   
+
+body { 
+font-family: 'Saira Extra';}
+
+h1 {
+    margin-top:20px;
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 60px;
+    text-transform: uppercase;
+    font-size: 50px;
+}
+
+h3 {
+    text-align: center;
+    padding-top: 60px;
+    margin-bottom: 60px;
+    text-transform: uppercase;
+    font-size: 50px;
+}
+
+p {
+    font-size: 17px;
+    font-family: sans-serif;
+}
+
+section {
+    padding-bottom: 60px;
+}
+
+.h2dark {
+    color: black;
+}
+
+.h3light {
+    color: white;
+}
+
+.h3dark {
+    color:black;
+}
+
+#intro {
+    width: 100%;
+    background-color: white;
+}
+
+#video {
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+.secdark {
+    background-color: #1A1A1A;
+}
+
+.plight {
+    color:white; 
+    margin-top: 50px;
+}
+
+.textmarge{
+    margin-bottom: 50px;
+}
+
+#pucegauche {
+    margin-left: 15%;
+    margin-top: 20px;
+}
+
+.listepuce {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 17px;
+    font-family: sans-serif;
+}
+
+.elempuce {
+    display:inline-block;
+    
+}
+
+.elempucelight {
+    display:inline-block;
+    color:white;
+}
+
+.elempucelight th, 
+.elempucelight td {
+    border: 1px solid white;
+}
+
+.elemsaisie label {
+    color: white;
+}
+
+.resultat {
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+
+.imgstruc {
+    display:block;
+    width: 100%;
+    border: 2px solid #417E90;
+}
+
+.seclight ul {
+    width: 80%;
+    margin-left: 10%;
+}
+
+/* HEADER */ 
+
+header {
+    background-color: #E6E6E6;
+    padding: 20px 0px;
+}
+    
+header a {
+    color: #417E90 !important;
+}
+    
+header a:hover {
+    color: #1A1A1A !important;
+}
+    
+.navbar-toggler {
+    border: solid 1px #417E90!important;
+}
+    
+.fa-bars {
+    color: #417E90;
+    padding: 3px;
+    font-size: 25px;
+    }
+
+.test {
+    padding-right: 0;
+    padding-left: 0;
+}
+    
+#test2 i{
+    font-size: 40px;
+}
+    
+#test2:hover{
+    transform: rotate(360deg);
+    transition-duration: 1s;
+}
+    
+.dropdown {
+    font-size: 23px;
+    margin-left: 10px;
+    margin-right: 10px;
+    cursor: pointer;
+    width: 25%;
+}
+    
+.navbar-nav .dropdown-menu {
+    position: absolute;
+}
+    
+.dropdown-menu {
+    width: 25%;
+}
+
+.dropdown-menu .dropdown-item {
+    font-size: 20px;
+    border-left: solid 1px transparent;
+}
+    
+.dropdown-menu .dropdown-item:hover {
+    border-left: solid 1px #417E90;
+    }
+
+/*------ ARROW ------*/
+
+#separate{
+    margin: 8px;
+    }
+    
+#arrow{
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 2%;
+    padding-top: 2%;
+}
+    
+.text,
+#text_index {
+    font-size: 18px;
+} 
+
+/*------ FOOTER ------*/
+
+footer{
+    padding: 30px 0px;
+	background-color: #E6E6E6;
+    display: flex;
+    justify-content: space-around;
+    color: #417E90;
+}
+
+footer p {
+    margin-bottom : 0;
+    text-align: center;
+}
+
+
+/*------ MEDIA QUERIES ------*/ 
+
+
+/* MD */ 
+
+
+/* SM */
+
+/* XS */

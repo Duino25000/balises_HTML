@@ -1,0 +1,1 @@
+<p>Les Machistadors - Les balises HTML - <br> Tous droits réservés &copy;</p>
